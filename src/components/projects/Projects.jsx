@@ -1,5 +1,5 @@
 import './projects.css'
-import { Works } from './works'
+import { Works } from './Works'
 export function Projects() {
     return (
         <section className="projects section" id="projects">
