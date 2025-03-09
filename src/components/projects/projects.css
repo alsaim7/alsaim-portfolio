@@ -71,6 +71,22 @@
     transform: translateX(0.25rem);
 }
 
+/* modal work */
+.details-button{
+    cursor: pointer;
+}
+
+.modal-title{
+    color: var(--title-color);
+    margin-bottom: var(--mb-1);
+}
+
+.modal-des,
+.modal-tech{
+    color: var(--text-color);
+    margin-bottom: var(--mb-1);
+}
+
 /* breakpoints */
 
 /* for large screen  */
