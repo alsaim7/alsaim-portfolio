@@ -74,6 +74,7 @@
 /* modal work */
 .details-button{
     cursor: pointer;
+    background: none;
 }
 
 .modal-title{

@@ -19,13 +19,13 @@ export function Footer() {
 
 
                 <div className="footer__social">
-                    <a href="https://www.instagram.com/al_saim7?igsh=MXE5dG5zaW9idGxqeA==" className="footer__social-link" target="_blank" rel="noopener noreferer">
+                    <a href="https://www.instagram.com/al_saim7?igsh=MXE5dG5zaW9idGxqeA==" className="footer__social-link" target="_blank" rel="noopener noreferrer">
                         <i className='bx bxl-instagram' ></i>
                     </a>
-                    <a href="https://github.com/alsaim7" className="footer__social-link" target="_blank" rel="noopener noreferer">
+                    <a href="https://github.com/alsaim7" className="footer__social-link" target="_blank" rel="noopener noreferrer">
                         <i className='bx bxl-github'></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/alsaimshakeel7/" className="footer__social-link" target="_blank" rel="noopener noreferer">
+                    <a href="https://www.linkedin.com/in/alsaimshakeel7/" className="footer__social-link" target="_blank" rel="noopener noreferrer">
                         <i className='bx bxl-linkedin' ></i>
                     </a>
                 </div>

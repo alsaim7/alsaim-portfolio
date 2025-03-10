@@ -65,7 +65,7 @@ export function Contact() {
                             <h3 className="contact__card-title">Email</h3>
                             <span className="contact__card-data">alsaimshakeel45@gmail.com</span>
 
-                            <a href="mailto:alsaimshakeel45@gmail.com" className="contact__button" target="_blank" rel="noopener noreferer">
+                            <a href="mailto:alsaimshakeel45@gmail.com" className="contact__button" target="_blank" rel="noopener noreferrer">
                                 Write me{" "}
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
@@ -76,7 +76,7 @@ export function Contact() {
                             <h3 className="contact__card-title">Whatsapp</h3>
                             <span className="contact__card-data">(+91) 630-788-3565</span>
 
-                            <a href="https://api.whatsapp.com/send?phone=+916307883565&text=Hello, more information!" className="contact__button" target="_blank" rel="noopener noreferer">Write me{" "}<i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="https://api.whatsapp.com/send?phone=+916307883565&text=Hello, more information!" className="contact__button" target="_blank" rel="noopener noreferrer">Write me{" "}<i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
 
                         <div className="contact__card">
@@ -85,7 +85,7 @@ export function Contact() {
                             <h3 className="contact__card-title">Telegram</h3>
                             <span className="contact__card-data">@alsaim7</span>
 
-                            <a href="https://t.me/alsaim7" className="contact__button" target="_blank" rel="noopener noreferer">Write me{" "}<i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="https://t.me/alsaim7" className="contact__button" target="_blank" rel="noopener noreferrer">Write me{" "}<i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
                     </div>
                 </div>

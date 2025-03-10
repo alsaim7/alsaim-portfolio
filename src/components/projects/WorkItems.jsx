@@ -24,12 +24,12 @@ export function WorkItems({ item }) {
             <img src={item.image} alt="" className="work__img" />
             <h3 className="work__title">{item.title}</h3>
 
-            <a className="work__button details-button" onClick={() => setModalOpen(true)}>
+            <button className="work__button details-button" onClick={() => setModalOpen(true)}>
                 Details <i className="bx bx-right-arrow-alt work__button-icon details-icon"></i>
-            </a>
+            </button>
 
 
-            <a href={item.link} className="work__button">
+            <a href={item.link} className="work__button" target="_blank" rel="noopener noreferrer">
                 View Project <i className="bx bx-right-arrow-alt work__button-icon"></i>
             </a>
 
