@@ -75,6 +75,7 @@
 .details-button{
     cursor: pointer;
     background: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .modal-title{
