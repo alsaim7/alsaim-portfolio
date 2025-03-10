@@ -18,7 +18,7 @@ export function WorkItems({ item }) {
     // Update modal width on window resize
     useEffect(() => {
         const handleResize = () => {
-            setModalWidth(window.innerWidth < 900 ? '80%' : '50%')
+            setModalWidth(window.innerWidth < 900 ? '90%' : '50%')
         }
 
         window.addEventListener('resize', handleResize)
