@@ -78,15 +78,8 @@
     -webkit-tap-highlight-color: transparent;
 }
 
-.modal-title{
-    color: var(--title-color);
-    margin-bottom: var(--mb-1);
-}
-
-.modal-des,
-.modal-tech{
-    color: var(--text-color);
-    margin-bottom: var(--mb-1);
+.close-icon{
+    font-size: var(--small-font-size);
 }
 
 /* breakpoints */
