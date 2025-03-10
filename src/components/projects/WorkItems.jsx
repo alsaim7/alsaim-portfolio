@@ -13,7 +13,7 @@ export function WorkItems({ item }) {
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
 
-    const [modalWidth, setModalWidth] = useState(window.innerWidth < 900 ? '80%' : '50%')
+    const [modalWidth, setModalWidth] = useState(window.innerWidth < 900 ? '90%' : '50%')
 
     // Update modal width on window resize
     useEffect(() => {
@@ -77,8 +77,8 @@ export function WorkItems({ item }) {
                             <b>Technologies used: </b>{item.tech}
                         </Typography>
 
-                        <Button className="modal-button" variant="contained" color="error" onClick={handleClose
-                        } sx={{mt:2, fontSize: '10px'}}><i className="uil uil-times close-icon"></i></Button>
+                        {/* <Button className="modal-button" variant="contained" color="error" onClick={handleClose
+                        } sx={{mt:2, fontSize: '10px'}}><i className="uil uil-times close-icon"></i></Button> */}
                     </Box>
 
                 </Fade>
