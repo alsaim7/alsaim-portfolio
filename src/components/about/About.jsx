@@ -99,7 +99,7 @@ export function About() {
                                     Web Devlopment
                                 </span>
                                 <div className="qualifcation__calender">
-                                    <i className="uil uil-calendar-alt"></i> 2024 - Present
+                                    <i className="uil uil-calendar-alt"></i> 2025 - Present
                                 </div>
                             </div>
 

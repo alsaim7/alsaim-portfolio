@@ -16,7 +16,7 @@ export function Data() {
         tl.to(textRef.current,{
             text: text,
             duration: 1.5,
-            ease: 'power2.out',
+            ease: 'power1.out',
         })
 
         tl.to(cursorRef.current,{
