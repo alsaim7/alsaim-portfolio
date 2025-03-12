@@ -68,7 +68,7 @@ export function About() {
                             <div>
                                 <h3 className="qualification__title">ICSE (Indian Certificate of Secondary Education)</h3>
                                 <span className="qualification__subtitle">
-                                    City Montessori School- CMS
+                                    City Montessori School - CMS
                                 </span>
                                 <div className="qualifcation__calender">
                                     <i className="uil uil-calendar-alt"></i> 2018
