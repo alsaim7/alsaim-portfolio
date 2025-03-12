@@ -27,7 +27,7 @@ export function About() {
                 <div className="qualification__sections">
                     <div className={toggleState===1? 'qualification__content qualification__content-active': 'qualification__content'}>
                         {/* qualification one */}
-                        <div className="qualification__data">
+                        <div className="qualification__data right-align">
                             <div>
                                 <h3 className="qualification__title">B.Tech in Computer Science Engineering</h3>
                                 <span className="qualification__subtitle">
@@ -64,7 +64,7 @@ export function About() {
 
 
                         {/* qualification three */}
-                        <div className="qualification__data">
+                        <div className="qualification__data right-align">
                             <div>
                                 <h3 className="qualification__title">ICSE (Indian Certificate of Secondary Education)</h3>
                                 <span className="qualification__subtitle">
@@ -92,7 +92,7 @@ export function About() {
                 <div className="qualification__sections">
                     <div className={toggleState===2? 'qualification__content qualification__content-active': 'qualification__content'}>
                         {/* qualification one */}
-                        <div className="qualification__data">
+                        <div className="qualification__data right-align">
                             <div>
                                 <h3 className="qualification__title">Freelancer</h3>
                                 <span className="qualification__subtitle">

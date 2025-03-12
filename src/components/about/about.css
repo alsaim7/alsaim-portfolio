@@ -82,6 +82,12 @@
     transform: translate(6px, -7px);
 }
 
+.right-align{
+    text-align: right;
+}
+
+
+
 /* breakpoints */
 
 /* for large devices */
