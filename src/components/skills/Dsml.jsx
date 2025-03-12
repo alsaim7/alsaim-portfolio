@@ -1,4 +1,12 @@
+import { skillsAnimeDsml } from "./skillsGSAP"
+import { useEffect } from "react"
 export function Dsml() {
+    useEffect(()=>{
+            const ctx= skillsAnimeDsml()
+            return(()=>{
+                ctx.revert()
+            })
+        },[])
     return (
         <div className="skills__content">
             <h3 className="skills__title">DS & ML</h3>
@@ -7,7 +15,7 @@ export function Dsml() {
                     <div className="skills__data">
                         <i className='bx bx-badge-check' ></i>
 
-                        <div>
+                        <div className="dsml">
                             <h3 className="skills__name"> Data Analysis</h3>
                             {/* <span className="skills__level">
                             </span> */}
@@ -18,7 +26,7 @@ export function Dsml() {
                     <div className="skills__data">
                         <i className='bx bx-badge-check' ></i>
 
-                        <div>
+                        <div className="dsml">
                             <h3 className="skills__name">Predictive Modeling</h3>
                             {/* <span className="skills__level">
                             </span> */}
@@ -34,7 +42,7 @@ export function Dsml() {
                     <div className="skills__data">
                         <i className='bx bx-badge-check' ></i>
 
-                        <div>
+                        <div className="dsml">
                             <h3 className="skills__name"> Machine Learning Algorithms</h3>
                             {/* <span className="skills__level">
                             </span> */}

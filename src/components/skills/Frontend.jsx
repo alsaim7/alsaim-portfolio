@@ -1,4 +1,12 @@
+import { skillsAnimeFrontend } from "./skillsGSAP"
+import { useEffect } from "react"
 export function Frontend() {
+    useEffect(()=>{
+        const ctx= skillsAnimeFrontend()
+        return(()=>{
+            ctx.revert()
+        })
+    },[])
     return (
         <div className="skills__content">
             <h3 className="skills__title">Frontend</h3>
@@ -7,7 +15,7 @@ export function Frontend() {
                     <div className="skills__data">
                         <i className='bx bx-badge-check' ></i>
 
-                        <div>
+                        <div className="frontend">
                             <h3 className="skills__name">HTML</h3>
                             {/* <span className="skills__level">
                             </span> */}
@@ -18,7 +26,7 @@ export function Frontend() {
                     <div className="skills__data">
                         <i className='bx bx-badge-check' ></i>
 
-                        <div>
+                        <div className="frontend">
                             <h3 className="skills__name">CSS</h3>
                             {/* <span className="skills__level">
                             </span> */}
@@ -29,7 +37,7 @@ export function Frontend() {
                     <div className="skills__data">
                         <i className='bx bx-badge-check' ></i>
 
-                        <div>
+                        <div className="frontend">
                             <h3 className="skills__name">Javascript</h3>
                             {/* <span className="skills__level">
                             </span> */}
@@ -44,7 +52,7 @@ export function Frontend() {
                     <div className="skills__data">
                         <i className='bx bx-badge-check' ></i>
 
-                        <div>
+                        <div className="frontend">
                             <h3 className="skills__name">React js</h3>
                             {/* <span className="skills__level">
                             </span> */}
@@ -55,7 +63,7 @@ export function Frontend() {
                     <div className="skills__data">
                         <i className='bx bx-badge-check' ></i>
 
-                        <div>
+                        <div className="frontend">
                             <h3 className="skills__name">GSAP</h3>
                             {/* <span className="skills__level">
                             </span> */}
@@ -66,7 +74,7 @@ export function Frontend() {
                     <div className="skills__data">
                         <i className='bx bx-badge-check' ></i>
 
-                        <div>
+                        <div className="frontend">
                             <h3 className="skills__name">Bootstrap</h3>
                             {/* <span className="skills__level">
                             </span> */}
