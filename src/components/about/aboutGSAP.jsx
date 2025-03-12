@@ -36,7 +36,7 @@ export const aboutAnime = () => {
 
     mm.add("(max-width: 576px)", () => {
         gsap.from('.gsap-left', {
-            x: 30,
+            x: 25,
             opacity: 0,
             duration: 0.5,
             scrollTrigger: {
@@ -49,7 +49,7 @@ export const aboutAnime = () => {
         })
 
         gsap.from('.gsap-right', {
-            x: -30,
+            x: -25,
             opacity: 0,
             duration: 0.5,
             scrollTrigger: {
