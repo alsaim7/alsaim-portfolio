@@ -9,8 +9,8 @@ export function Backend() {
 
                         <div>
                             <h3 className="skills__name">Node.js</h3>
-                            <span className="skills__level">
-                            </span>
+                            {/* <span className="skills__level">
+                            </span> */}
                         </div>
                     </div>
 
@@ -20,8 +20,8 @@ export function Backend() {
 
                         <div>
                             <h3 className="skills__name">Express.js</h3>
-                            <span className="skills__level">
-                            </span>
+                            {/* <span className="skills__level">
+                            </span> */}
                         </div>
                     </div> 
                 </div>
@@ -32,8 +32,8 @@ export function Backend() {
 
                         <div>
                             <h3 className="skills__name">MongoDB</h3>
-                            <span className="skills__level">
-                            </span>
+                            {/* <span className="skills__level">
+                            </span> */}
                         </div>
                     </div>
 
@@ -43,8 +43,8 @@ export function Backend() {
 
                         <div>
                             <h3 className="skills__name">Rest API</h3>
-                            <span className="skills__level">
-                            </span>
+                            {/* <span className="skills__level">
+                            </span> */}
                         </div>
                     </div> 
                 </div>

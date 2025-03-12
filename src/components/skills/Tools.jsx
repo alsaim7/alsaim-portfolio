@@ -9,8 +9,8 @@ export function Tools() {
 
                         <div>
                             <h3 className="skills__name"> VS Code</h3>
-                            <span className="skills__level">
-                            </span>
+                            {/* <span className="skills__level">
+                            </span> */}
                         </div>
                     </div>
 
@@ -20,8 +20,8 @@ export function Tools() {
 
                         <div>
                             <h3 className="skills__name">Bash Terminal</h3>
-                            <span className="skills__level">
-                            </span>
+                            {/* <span className="skills__level">
+                            </span> */}
                         </div>
                     </div>
 
@@ -36,8 +36,8 @@ export function Tools() {
 
                         <div>
                             <h3 className="skills__name">Jupyter Notebook</h3>
-                            <span className="skills__level">
-                            </span>
+                            {/* <span className="skills__level">
+                            </span> */}
                         </div>
                     </div>
 
@@ -47,8 +47,8 @@ export function Tools() {
 
                         <div>
                             <h3 className="skills__name">Git Hub</h3>
-                            <span className="skills__level">
-                            </span>
+                            {/* <span className="skills__level">
+                            </span> */}
                         </div>
                     </div>
 

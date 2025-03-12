@@ -8,7 +8,7 @@ export const aboutAnime = () => {
         gsap.from('.gsap-left', {
             x: 40,
             opacity: 0,
-            duration: 0.5,
+            duration: 1,
             scrollTrigger: {
                 trigger: ".gsap-left",
                 start: "top 90%",
@@ -21,7 +21,7 @@ export const aboutAnime = () => {
         gsap.from('.gsap-right', {
             x: -40,
             opacity: 0,
-            duration: 0.5,
+            duration: 1,
             scrollTrigger: {
                 trigger: ".gsap-right",
                 start: "top 90%",
@@ -36,9 +36,9 @@ export const aboutAnime = () => {
 
     mm.add("(max-width: 576px)", () => {
         gsap.from('.gsap-left', {
-            x: 25,
+            x: 22,
             opacity: 0,
-            duration: 0.5,
+            duration: 1,
             scrollTrigger: {
                 trigger: ".gsap-left",
                 start: "top 90%",
@@ -49,9 +49,9 @@ export const aboutAnime = () => {
         })
 
         gsap.from('.gsap-right', {
-            x: -25,
+            x: -22,
             opacity: 0,
-            duration: 0.5,
+            duration: 1,
             scrollTrigger: {
                 trigger: ".gsap-right",
                 start: "top 90%",

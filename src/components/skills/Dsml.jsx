@@ -9,8 +9,8 @@ export function Dsml() {
 
                         <div>
                             <h3 className="skills__name"> Data Analysis</h3>
-                            <span className="skills__level">
-                            </span>
+                            {/* <span className="skills__level">
+                            </span> */}
                         </div>
                     </div>
 
@@ -20,8 +20,8 @@ export function Dsml() {
 
                         <div>
                             <h3 className="skills__name">Predictive Modeling</h3>
-                            <span className="skills__level">
-                            </span>
+                            {/* <span className="skills__level">
+                            </span> */}
                         </div>
                     </div>
 
@@ -36,8 +36,8 @@ export function Dsml() {
 
                         <div>
                             <h3 className="skills__name"> Machine Learning Algorithms</h3>
-                            <span className="skills__level">
-                            </span>
+                            {/* <span className="skills__level">
+                            </span> */}
                         </div>
                     </div>
 

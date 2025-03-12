@@ -9,8 +9,8 @@ export function Frontend() {
 
                         <div>
                             <h3 className="skills__name">HTML</h3>
-                            <span className="skills__level">
-                            </span>
+                            {/* <span className="skills__level">
+                            </span> */}
                         </div>
                     </div>
 
@@ -20,8 +20,8 @@ export function Frontend() {
 
                         <div>
                             <h3 className="skills__name">CSS</h3>
-                            <span className="skills__level">
-                            </span>
+                            {/* <span className="skills__level">
+                            </span> */}
                         </div>
                     </div>
 
@@ -31,8 +31,8 @@ export function Frontend() {
 
                         <div>
                             <h3 className="skills__name">Javascript</h3>
-                            <span className="skills__level">
-                            </span>
+                            {/* <span className="skills__level">
+                            </span> */}
                         </div>
                     </div>
                 </div>
@@ -46,8 +46,8 @@ export function Frontend() {
 
                         <div>
                             <h3 className="skills__name">React js</h3>
-                            <span className="skills__level">
-                            </span>
+                            {/* <span className="skills__level">
+                            </span> */}
                         </div>
                     </div> 
 
@@ -57,8 +57,8 @@ export function Frontend() {
 
                         <div>
                             <h3 className="skills__name">GSAP</h3>
-                            <span className="skills__level">
-                            </span>
+                            {/* <span className="skills__level">
+                            </span> */}
                         </div>
                     </div> 
 
@@ -68,8 +68,8 @@ export function Frontend() {
 
                         <div>
                             <h3 className="skills__name">Bootstrap</h3>
-                            <span className="skills__level">
-                            </span>
+                            {/* <span className="skills__level">
+                            </span> */}
                         </div>
                     </div> 
                 </div>
