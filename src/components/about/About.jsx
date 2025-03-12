@@ -96,7 +96,7 @@ export function About() {
                             <div>
                                 <h3 className="qualification__title">Freelancer</h3>
                                 <span className="qualification__subtitle">
-                                    Web Development
+                                    Web Devlopment
                                 </span>
                                 <div className="qualifcation__calender">
                                     <i className="uil uil-calendar-alt"></i> 2025 - Present
