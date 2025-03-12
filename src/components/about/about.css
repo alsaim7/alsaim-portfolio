@@ -116,9 +116,7 @@
     }
 }
 
-
-/* for smaoll secreen devices */
-@media screen and (max-width: 350px){
+@media screen and (max-width: 576px){
     .qualification__data{
         gap: 0.5rem;
     }
