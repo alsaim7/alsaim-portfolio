@@ -2,6 +2,8 @@ import { projectsData } from "./Data"
 import { projectsNav } from "./Data"
 import { WorkItems } from "./WorkItems"
 import { useState, useEffect } from "react"
+import { projectCardAnime } from "./projectsGSAP";
+
 export function Works() {
     const [item, setItem] = useState({ name: 'All' })
     const [projects, setProjects] = useState([])
@@ -24,6 +26,14 @@ export function Works() {
         setItem({name: e.target.textContent})
         setActive(index)
     }
+
+    useEffect(()=>{
+        const ctx = projectCardAnime()
+        return (() => {
+            ctx.revert()
+        })
+    },[handleClick])
+    
     return (
         <div>
             <div className="work__filters">

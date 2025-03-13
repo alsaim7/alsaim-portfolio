@@ -10,7 +10,7 @@ export function Home() {
         return (() => {
             ctx.revert()
         })
-    })
+    },[])
     return (
         <section className="heom section" id="home">
             <div className="home__container grid container">

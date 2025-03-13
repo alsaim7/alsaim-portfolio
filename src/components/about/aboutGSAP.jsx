@@ -15,6 +15,7 @@ export const aboutAnime = () => {
                 end: "top 10%",
                 // scrub: true,
                 // markers: true,
+                toggleActions: "play none none reverse",
             },
         })
 
@@ -28,6 +29,7 @@ export const aboutAnime = () => {
                 end: "top 10%",
                 // scrub: true,
                 // markers: true,
+                toggleActions: "play none none reverse",
             },
         })
     })
@@ -45,6 +47,7 @@ export const aboutAnime = () => {
                 end: "top 10%",
                 // scrub: true,
                 // markers: true,
+                toggleActions: "play none none reverse",
             },
         })
 
@@ -58,6 +61,7 @@ export const aboutAnime = () => {
                 end: "top 10%",
                 // scrub: true,
                 // markers: true,
+                toggleActions: "play none none reverse",
             },
         })
     })

@@ -6,7 +6,7 @@ export function Social() {
         return(()=>{
             ctx.revert()
         })
-    })
+    },[])
     return (
         <div className="home__social">
             <a href="https://github.com/alsaim7" className="home__social-icon social" target="_blank" rel="noopener noreferrer">

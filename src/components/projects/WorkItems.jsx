@@ -38,7 +38,7 @@ export function WorkItems({ item }) {
         p: 4,
     };
     return (
-        <div className="work__card">
+        <div className={`work__card class${item.id}`}>
             <img src={item.image} alt="" className="work__img" />
             <h3 className="work__title">{item.title}</h3>
 
