@@ -17,7 +17,7 @@ export function myimgAnime(){
         gsap.from('.myimg', {
             scale: 0.8,
             duration: 0.8,
-            ease: "power2.out"
+            ease: "power2.out",
         })
     })
 }
@@ -27,8 +27,11 @@ export function buttonAnime(){
     return gsap.context(()=>{
         gsap.from('.button',{
             y: -25,
+            autoAlpha: 0,
             opacity: 0,
-            duration:0.5,
+            duration:0.6,
+            ease: "power2.out",
+            delay: 0.3,
         })
     })
 }
