@@ -15,8 +15,8 @@ export const socialAnime=()=>{
 export function myimgAnime(){
     return gsap.context(()=>{
         gsap.from('.myimg', {
-            scale: 0.2,
-            duration: 1
+            scale: 0.8,
+            duration: 0.8,
         })
     })
 }
