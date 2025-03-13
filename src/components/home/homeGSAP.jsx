@@ -20,3 +20,14 @@ export function myimgAnime(){
         })
     })
 }
+
+
+export function buttonAnime(){
+    return gsap.context(()=>{
+        gsap.from('.button',{
+            y: -25,
+            opacity: 0,
+            duration:0.5,
+        })
+    })
+}
