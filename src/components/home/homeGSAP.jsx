@@ -17,6 +17,7 @@ export function myimgAnime(){
         gsap.from('.myimg', {
             scale: 0.8,
             duration: 0.8,
+            ease: "power2.out"
         })
     })
 }
