@@ -25,7 +25,7 @@ export function myimgAnime(){
 
 export function buttonAnime(){
     return gsap.context(()=>{
-        gsap.from('.button',{
+        gsap.from('.buttonHello',{
             y: -25,
             autoAlpha: 0,
             opacity: 0,

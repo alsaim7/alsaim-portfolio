@@ -49,7 +49,7 @@ export function Data() {
                 Skilled in developing scalable and responsive web applications with a focus on performance and user experience. Proficient in both front-end and back-end technologies, creating efficient and dynamic solutions.
             </p>
 
-            <a href="#contact" className="button button--flex">
+            <a href="#contact" className="button button--flex buttonHello">
                 Say Hello
                 <svg
                     className="button__icon"

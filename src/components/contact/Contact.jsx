@@ -1,6 +1,7 @@
 import './contact.css'
 import { useState, useEffect } from 'react'
 import { ClipLoader } from "react-spinners"
+import { contactAnime } from './contactGSAP'
 
 export function Contact() {
     const [loading, setLoading] = useState(false)
@@ -49,6 +50,14 @@ export function Contact() {
             setLoading(false)
         }
     }
+
+    useEffect(()=>{
+        const mm= contactAnime()
+        return(()=>{
+            mm.revert()
+        })
+    })
+
     return (
         <section className="contact section" id="contact">
             <h2 className="section__title">Get in touch</h2>
@@ -59,7 +68,7 @@ export function Contact() {
                     <h3 className="contact__title">Talk to me</h3>
 
                     <div className="contact__info">
-                        <div className="contact__card">
+                        <div className="contact__card contactCards">
                             <i className="bx bx-mail-send contact__card-icon"></i>
 
                             <h3 className="contact__card-title">Email</h3>
@@ -70,7 +79,7 @@ export function Contact() {
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
 
-                        <div className="contact__card">
+                        <div className="contact__card contactCards">
                             <i className="bx bxl-whatsapp contact__card-icon"></i>
 
                             <h3 className="contact__card-title">Whatsapp</h3>
@@ -79,7 +88,7 @@ export function Contact() {
                             <a href="https://api.whatsapp.com/send?phone=+916307883565&text=Hello, more information!" className="contact__button" target="_blank" rel="noopener noreferrer">Write me{" "}<i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
 
-                        <div className="contact__card">
+                        <div className="contact__card contactCards">
                             <i className="bx bxl-telegram contact__card-icon"></i>
 
                             <h3 className="contact__card-title">Telegram</h3>
@@ -98,23 +107,23 @@ export function Contact() {
                     /> : null}</div>
 
                     <form className="contact__form" onSubmit={handleSubmit}>
-                        <div className="contact__form-div">
+                        <div className="contact__form-div formFeild">
                             <label htmlFor="name" className="contact__form-tag">Name</label>
                             <input type="text" name='name' id='name' className='contact__form-input' placeholder='Type your name' onChange={handleChange} value={formData.name} required />
                         </div>
 
-                        <div className="contact__form-div">
+                        <div className="contact__form-div formFeild">
                             <label htmlFor="email" className="contact__form-tag">Email</label>
                             <input type="email" name='email' id='email' className='contact__form-input' placeholder='Enter your email' onChange={handleChange} value={formData.email} required />
                         </div>
 
-                        <div className="contact__form-div contact__form-area">
+                        <div className="contact__form-div contact__form-area formFeild">
                             <label htmlFor="message" className="contact__form-tag">Message</label>
                             <textarea name='message' id='message' className='contact__form-input' placeholder='Write your message' cols={30} rows={5} onChange={handleChange} value={formData.message} required />
                         </div>
 
 
-                        <button className="button button--flex">
+                        <button className="button button--flex formFeild">
                             Send Message
                             <svg
                                 className="button__icon"
