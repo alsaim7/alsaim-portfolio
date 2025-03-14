@@ -11,7 +11,6 @@ export const skillsAnimeFrontend=()=>{
             scrollTrigger: {
                 trigger: ".frontend",
                 start: "top 90%",
-                end: "top 10%",
                 // scrub: true,
                 // markers: true,
                 toggleActions: "play none none reverse",
@@ -29,7 +28,6 @@ export const skillsAnimeBackend=()=>{
             scrollTrigger: {
                 trigger: ".backend",
                 start: "top 90%",
-                end: "top 10%",
                 // scrub: true,
                 // markers: true,
                 toggleActions: "play none none reverse",
@@ -47,7 +45,6 @@ export const skillsAnimeDsml=()=>{
             scrollTrigger: {
                 trigger: ".dsml",
                 start: "top 90%",
-                end: "top 10%",
                 // scrub: true,
                 // markers: true,
                 toggleActions: "play none none reverse",
@@ -65,7 +62,6 @@ export const skillsAnimeTools=()=>{
             scrollTrigger: {
                 trigger: ".tools",
                 start: "top 90%",
-                end: "top 10%",
                 // scrub: true,
                 // markers: true,
                 toggleActions: "play none none reverse",

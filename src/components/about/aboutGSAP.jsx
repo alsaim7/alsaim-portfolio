@@ -12,7 +12,6 @@ export const aboutAnime = () => {
             scrollTrigger: {
                 trigger: ".gsap-left",
                 start: "top 90%",
-                end: "top 10%",
                 // scrub: true,
                 // markers: true,
                 toggleActions: "play none none reverse",
@@ -26,7 +25,6 @@ export const aboutAnime = () => {
             scrollTrigger: {
                 trigger: ".gsap-right",
                 start: "top 90%",
-                end: "top 10%",
                 // scrub: true,
                 // markers: true,
                 toggleActions: "play none none reverse",
@@ -44,7 +42,6 @@ export const aboutAnime = () => {
             scrollTrigger: {
                 trigger: ".gsap-left",
                 start: "top 90%",
-                end: "top 10%",
                 // scrub: true,
                 // markers: true,
                 toggleActions: "play none none reverse",
@@ -58,7 +55,6 @@ export const aboutAnime = () => {
             scrollTrigger: {
                 trigger: ".gsap-right",
                 start: "top 90%",
-                end: "top 10%",
                 // scrub: true,
                 // markers: true,
                 toggleActions: "play none none reverse",
