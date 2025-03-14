@@ -1,5 +1,13 @@
 import './footer.css'
+import { footerSocialAnime } from './footerGSAP'
+import { useEffect } from 'react'
 export function Footer() {
+    useEffect(()=>{
+        const ctx= footerSocialAnime()
+        return(()=>{
+            ctx.revert()
+        })
+    },[])
     return (
         <footer className="footer">
             <div className="footer__container container">
@@ -19,13 +27,13 @@ export function Footer() {
 
 
                 <div className="footer__social">
-                    <a href="https://www.instagram.com/al_saim7?igsh=MXE5dG5zaW9idGxqeA==" className="footer__social-link" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/al_saim7?igsh=MXE5dG5zaW9idGxqeA==" className="footer__social-link footerSocial" target="_blank" rel="noopener noreferrer">
                         <i className='bx bxl-instagram' ></i>
                     </a>
-                    <a href="https://github.com/alsaim7" className="footer__social-link" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/alsaim7" className="footer__social-link footerSocial" target="_blank" rel="noopener noreferrer">
                         <i className='bx bxl-github'></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/alsaimshakeel7/" className="footer__social-link" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/alsaimshakeel7/" className="footer__social-link footerSocial" target="_blank" rel="noopener noreferrer">
                         <i className='bx bxl-linkedin' ></i>
                     </a>
                 </div>
