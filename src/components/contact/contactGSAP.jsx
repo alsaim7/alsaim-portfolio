@@ -13,7 +13,6 @@ export function contactAnime() {
             scrollTrigger: {
                 trigger: ".contactCards",
                 start: "top 90%",
-                end: "top 10%",
                 // scrub: true,
                 // markers: true,
                 toggleActions: "play none none reverse",
@@ -28,7 +27,6 @@ export function contactAnime() {
             scrollTrigger: {
                 trigger: ".formFeild",
                 start: "top 90%",
-                end: "top 10%",
                 // scrub: true,
                 // markers: true,
                 toggleActions: "play none none reverse",
@@ -46,7 +44,6 @@ export function contactAnime() {
             scrollTrigger: {
                 trigger: ".contactCards",
                 start: "top 80%",
-                end: "top 10%",
                 // scrub: true,
                 // markers: true,
                 toggleActions: "play none none reverse",
@@ -62,7 +59,6 @@ export function contactAnime() {
             scrollTrigger: {
                 trigger: ".formFeild",
                 start: "top 80%",
-                end: "top 10%",
                 // scrub: true,
                 // markers: true,
                 toggleActions: "play none none reverse",
