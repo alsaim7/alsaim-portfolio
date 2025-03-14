@@ -6,7 +6,7 @@ export const socialAnime=()=>{
             x:-20,
             opacity:0,
             duration:1,
-            stagger: 0.5
+            stagger: 0.4
         })
     })
 }
