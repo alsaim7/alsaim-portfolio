@@ -56,7 +56,7 @@ export function Contact() {
         return(()=>{
             mm.revert()
         })
-    })
+    },[])
 
     return (
         <section className="contact section" id="contact">
