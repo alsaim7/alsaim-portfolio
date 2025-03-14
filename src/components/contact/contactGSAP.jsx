@@ -43,9 +43,9 @@ export function contactAnime() {
             ease: 'power2.out',
             scrollTrigger: {
                 trigger: ".contactCards",
-                start: "top 80%",
-                // scrub: true,
-                // markers: true,
+                start: "top 85%",
+                scrub: true,
+                markers: true,
                 toggleActions: "play none none reverse",
             },
         })
@@ -58,9 +58,9 @@ export function contactAnime() {
             ease: 'power2.out',
             scrollTrigger: {
                 trigger: ".formFeild",
-                start: "top 80%",
-                // scrub: true,
-                // markers: true,
+                start: "top 85%",
+                scrub: true,
+                markers: true,
                 toggleActions: "play none none reverse",
             },
         })
