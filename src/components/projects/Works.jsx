@@ -32,7 +32,7 @@ export function Works() {
         return (() => {
             ctx.revert()
         })
-    },[handleClick])
+    },[projects])
     
     return (
         <div>
