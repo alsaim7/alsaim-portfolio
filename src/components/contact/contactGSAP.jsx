@@ -39,7 +39,7 @@ export function contactAnime() {
             y: 30,
             opacity: 0,
             duration: 1,
-            // stagger: 0.2,
+            stagger: 0.2,
             ease: 'power2.out',
             scrollTrigger: {
                 trigger: ".contactCards",
@@ -54,7 +54,7 @@ export function contactAnime() {
             y: 30,
             opacity: 0,
             duration: 1,
-            // stagger: 0.2,
+            stagger: 0.2,
             ease: 'power2.out',
             scrollTrigger: {
                 trigger: ".formFeild",
