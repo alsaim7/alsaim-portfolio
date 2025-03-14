@@ -203,6 +203,9 @@ img {
 }
 
 @media screen and (max-width: 576px) {
+  :root {
+    --big-font-size: 2.2rem;
+  }
 }
 
 /* For small devices */
