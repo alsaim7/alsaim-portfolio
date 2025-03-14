@@ -36,10 +36,10 @@ export function contactAnime() {
 
     mm.add('(max-width: 768px)', () => {
         gsap.from('.contactCards', {
-            y: 30,
+            y: 50,
             opacity: 0,
             duration: 1,
-            stagger: 0.3,
+            stagger: 0.2,
             ease: 'power2.out',
             scrollTrigger: {
                 trigger: ".contactCards",
@@ -51,10 +51,10 @@ export function contactAnime() {
         })
 
         gsap.from('.formFeild', {
-            y: 30,
+            y: 50,
             opacity: 0,
             duration: 1,
-            stagger: 0.3,
+            stagger: 0.2,
             ease: 'power2.out',
             scrollTrigger: {
                 trigger: ".formFeild",
