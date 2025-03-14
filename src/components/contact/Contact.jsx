@@ -2,6 +2,7 @@ import './contact.css'
 import { useState, useEffect } from 'react'
 import { ClipLoader } from "react-spinners"
 import { contactAnime } from './contactGSAP'
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 export function Contact() {
     const [loading, setLoading] = useState(false)
@@ -53,6 +54,7 @@ export function Contact() {
 
     useEffect(()=>{
         const mm= contactAnime()
+        ScrollTrigger.refresh()
         return(()=>{
             mm.revert()
         })
