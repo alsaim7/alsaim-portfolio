@@ -2,7 +2,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger)
 
-export function contactAnime() {
+export const contactAnime=()=> {
     const mm = gsap.matchMedia()
     mm.add('(min-width: 768px)', () => {
         gsap.from('.contactCards', {
