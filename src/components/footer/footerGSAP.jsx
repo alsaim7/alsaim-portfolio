@@ -7,7 +7,7 @@ export const footerSocialAnime=()=>{
         gsap.from('.footerSocial', {
             y:-20,
             opacity:0,
-            duration:1,
+            duration:2,
             stagger:0.2,
             scrollTrigger:{
                 trigger: '.footerSocial',
