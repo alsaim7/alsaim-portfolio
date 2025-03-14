@@ -54,7 +54,6 @@ export function Contact() {
 
     useEffect(()=>{
         const mm= contactAnime()
-        ScrollTrigger.refresh()
         return(()=>{
             mm.revert()
         })
