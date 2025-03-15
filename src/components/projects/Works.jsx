@@ -3,6 +3,8 @@ import { projectsNav } from "./Data"
 import { WorkItems } from "./WorkItems"
 import { useState, useEffect } from "react"
 import { projectCardAnime } from "./projectsGSAP";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
 
 export function Works() {
     const [item, setItem] = useState({ name: 'All' })
@@ -29,6 +31,9 @@ export function Works() {
 
     useEffect(()=>{
         const ctx = projectCardAnime()
+        setTimeout(()=>{
+            ScrollTrigger.refresh()
+        }, 100)
         return (() => {
             ctx.revert()
         })
