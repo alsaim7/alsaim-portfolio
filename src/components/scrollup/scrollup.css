@@ -21,6 +21,7 @@
 
 .scrollup{
     -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
 }
 
 /* show scroll  */

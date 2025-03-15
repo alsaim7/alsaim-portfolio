@@ -112,6 +112,11 @@
     resize: none;
 }
 
+.formButton{
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+}
+
 /* breakpoints */
 
 /* for large screen devides  */

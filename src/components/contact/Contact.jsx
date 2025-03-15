@@ -124,7 +124,7 @@ export function Contact() {
                         </div>
 
 
-                        <button className="button button--flex formFeild">
+                        <button className="button button--flex formFeild formButton">
                             Send Message
                             <svg
                                 className="button__icon"
