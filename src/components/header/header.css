@@ -16,6 +16,12 @@
 }
 
 .nav__logo,
+.nav__link {
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+.nav__logo,
 .nav__toggle{
     color: var(--title-color);
     font-weight: var(--font-medium);
