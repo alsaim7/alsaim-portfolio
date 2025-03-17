@@ -38,7 +38,7 @@ export function Footer() {
                     </a>
                 </div>
 
-                <span className="footer__copy">&#169; Al Saim. All rights reserved</span>
+                <span className="footer__copy">&#169; 2025 Al Saim Shakeel.</span>
             </div>
         </footer>
     )
