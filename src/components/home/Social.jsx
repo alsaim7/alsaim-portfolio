@@ -15,7 +15,7 @@ export function Social() {
             <a href="https://www.linkedin.com/in/alsaimshakeel7/" className="home__social-icon social" target="_blank" rel="noopener noreferrer">
                 <i className="uil uil-linkedin-alt"></i>
             </a>
-            <a href="https://www.instagram.com/al_saim7?igsh=MXE5dG5zaW9idGxqeA==" className="home__social-icon social" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/alsaim.dev?igsh=MXZ3cmtwejYydmNycg==" className="home__social-icon social" target="_blank" rel="noopener noreferrer">
                 <i className="uil uil-instagram"></i>
             </a>
 

@@ -27,7 +27,7 @@ export function Footer() {
 
 
                 <div className="footer__social">
-                    <a href="https://www.instagram.com/al_saim7?igsh=MXE5dG5zaW9idGxqeA==" className="footer__social-link footerSocial" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/alsaim.dev?igsh=MXZ3cmtwejYydmNycg==" className="footer__social-link footerSocial" target="_blank" rel="noopener noreferrer">
                         <i className='bx bxl-instagram' ></i>
                     </a>
                     <a href="https://github.com/alsaim7" className="footer__social-link footerSocial" target="_blank" rel="noopener noreferrer">
