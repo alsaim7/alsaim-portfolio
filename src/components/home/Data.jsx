@@ -1,37 +1,17 @@
-import { useEffect, useRef } from "react"
-import {gsap} from 'gsap'
-import TextPlugin from "gsap/TextPlugin"
+import { useEffect } from "react"
 import { buttonAnime } from "./homeGSAP"
-
-gsap.registerPlugin(TextPlugin)
+import { SplitText } from "./SplitText"
 
 export function Data() {
 
-    const textRef = useRef(null)
-    const cursorRef= useRef(null)
-    const text = 'Al Saim Shakeel'
+    const handleAnimationComplete = () => {
+        console.log("Name animation completed!")
+    }
 
     useEffect(() => {
-        const tl= gsap.timeline()
+        const ctx = buttonAnime()
 
-        tl.to(textRef.current,{
-            text: text,
-            duration: 1.5,
-            ease: 'power1.out',
-        })
-
-        tl.to(cursorRef.current,{
-            opacity:0,
-            duration: 0.5,
-            repeat: -1,
-            yoyo: true,
-            ease: 'sine.inOut',
-        }, '-=0.5')
-
-        const ctx= buttonAnime()
-
-        return(()=>{
-            tl.revert()
+        return (() => {
             ctx.revert()
         })
     }, [])
@@ -39,9 +19,18 @@ export function Data() {
     return (
         <div className="home__data">
             <h1 className="home__title">
-                <span ref={textRef}></span>
-                <span ref={cursorRef} style={{fontWeight: 'var(--font-medium)'}}>|</span>
-            </h1> 
+                <SplitText
+                    text="Al Saim Shakeel"
+                    className="text-4xl font-bold text-center"
+                    delay={100}
+                    animationFrom={{ opacity: 0, transform: 'translate3d(0,-40px,0)' }}
+                    animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+                    easing="easeOutCubic"
+                    threshold={0.2}
+                    rootMargin="-50px"
+                    onLetterAnimationComplete={handleAnimationComplete}
+                />
+            </h1>
             <h3 className="home__subtitle">
                 Full-Stack web developer
             </h3>
