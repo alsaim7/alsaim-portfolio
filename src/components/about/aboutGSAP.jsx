@@ -10,8 +10,8 @@ export const aboutAnime = () => {
             opacity: 0,
             duration: 1,
             scrollTrigger: {
-                trigger: ".gsap-left",
-                start: "top 90%",
+                trigger: ".qualification__sections",
+                start: "top 80%",
                 // scrub: true,
                 // markers: true,
                 toggleActions: "play none none reverse",
@@ -23,8 +23,8 @@ export const aboutAnime = () => {
             opacity: 0,
             duration: 1,
             scrollTrigger: {
-                trigger: ".gsap-right",
-                start: "top 90%",
+                trigger: ".qualification__sections",
+                start: "top 80%",
                 // scrub: true,
                 // markers: true,
                 toggleActions: "play none none reverse",
@@ -40,8 +40,8 @@ export const aboutAnime = () => {
             opacity: 0,
             duration: 1,
             scrollTrigger: {
-                trigger: ".gsap-left",
-                start: "top 90%",
+                trigger: ".qualification__sections",
+                start: "top 80%",
                 // scrub: true,
                 // markers: true,
                 toggleActions: "play none none reverse",
@@ -53,8 +53,8 @@ export const aboutAnime = () => {
             opacity: 0,
             duration: 1,
             scrollTrigger: {
-                trigger: ".gsap-right",
-                start: "top 90%",
+                trigger: ".qualification__sections",
+                start: "top 80%",
                 // scrub: true,
                 // markers: true,
                 toggleActions: "play none none reverse",
