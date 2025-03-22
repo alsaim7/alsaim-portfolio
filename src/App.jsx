@@ -13,13 +13,13 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 function App() {
 
   useEffect(() => {
-    function refreshScrollTrigger() {
-      setTimeout(() => {
-        ScrollTrigger.refresh();
-      }, 500);
-    }
+    // function refreshScrollTrigger() {
+    //   setTimeout(() => {
+    //     ScrollTrigger.refresh();
+    //   }, 500);
+    // }
 
-    window.addEventListener("load", refreshScrollTrigger);
+    // window.addEventListener("load", refreshScrollTrigger);
     // document.addEventListener("DOMContentLoaded", refreshScrollTrigger);
 
     // 👇 Force refresh after first scroll/touch
@@ -35,7 +35,7 @@ function App() {
     window.addEventListener("touchstart", handleInteraction);
 
     return () => {
-      window.removeEventListener("load", refreshScrollTrigger);
+      // window.removeEventListener("load", refreshScrollTrigger);
       // document.removeEventListener("DOMContentLoaded", refreshScrollTrigger);
       window.removeEventListener("scroll", handleInteraction);
       window.removeEventListener("touchstart", handleInteraction);
