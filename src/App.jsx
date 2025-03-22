@@ -20,7 +20,7 @@ function App() {
     }
 
     window.addEventListener("load", refreshScrollTrigger);
-    document.addEventListener("DOMContentLoaded", refreshScrollTrigger);
+    // document.addEventListener("DOMContentLoaded", refreshScrollTrigger);
 
     // 👇 Force refresh after first scroll/touch
     const handleInteraction = () => {
@@ -36,7 +36,7 @@ function App() {
 
     return () => {
       window.removeEventListener("load", refreshScrollTrigger);
-      document.removeEventListener("DOMContentLoaded", refreshScrollTrigger);
+      // document.removeEventListener("DOMContentLoaded", refreshScrollTrigger);
       window.removeEventListener("scroll", handleInteraction);
       window.removeEventListener("touchstart", handleInteraction);
     };
