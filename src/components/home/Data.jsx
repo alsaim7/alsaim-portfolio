@@ -5,7 +5,7 @@ import { SplitText } from "./SplitText"
 export function Data() {
 
     // const handleAnimationComplete = () => {
-    //     console.log("Name animation completed!")
+    //     console.log("")
     // }
 
     useEffect(() => {
