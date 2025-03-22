@@ -10,9 +10,6 @@ export function About() {
 
     useEffect(() => {
         const mm= aboutAnime()
-        setTimeout(()=>{
-            ScrollTrigger.refresh()
-        }, 100)
         return (() => {
             mm.revert(); // Cleanup on unmount
         })
