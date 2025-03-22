@@ -13,18 +13,18 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 function App() {
 
   useEffect(() => {
-    window.addEventListener("load", () => {
+    function refreshScrollTrigger() {
       setTimeout(() => {
         ScrollTrigger.refresh();
-      }, 500); // Delay refresh slightly
-    });
+      }, 500); // Delay to ensure proper calculations
+    }
+
+    window.addEventListener("load", refreshScrollTrigger);
+    document.addEventListener("DOMContentLoaded", refreshScrollTrigger);
 
     return () => {
-      window.removeEventListener("load", () => {
-        setTimeout(() => {
-          ScrollTrigger.refresh();
-        }, 500);
-      });
+      window.removeEventListener("load", refreshScrollTrigger);
+      document.removeEventListener("DOMContentLoaded", refreshScrollTrigger);
     };
   }, []);
 
