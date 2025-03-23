@@ -78,6 +78,8 @@
     .header{
         top: initial;
         bottom: 0;
+        /* Add padding to account for the browser's navigation bar */
+        padding-bottom: env(safe-area-inset-bottom, 0);
     }
 
     .nav{
