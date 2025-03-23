@@ -14,8 +14,8 @@ export const aboutAnime = () => {
                 start: "top 80%",
                 // scrub: true,
                 // markers: true,
-                toggleActions: "play none none reverse",
-            },
+                toggleActions: "play reverse play reverse",
+            }
         })
 
         gsap.from('.gsap-right', {
@@ -27,7 +27,7 @@ export const aboutAnime = () => {
                 start: "top 80%",
                 // scrub: true,
                 // markers: true,
-                toggleActions: "play none none reverse",
+                toggleActions: "play reverse play reverse",
             },
         })
     })
@@ -44,7 +44,7 @@ export const aboutAnime = () => {
                 start: "top 80%",
                 // scrub: true,
                 // markers: true,
-                toggleActions: "play none none reverse",
+                toggleActions: "play reverse play reverse",
             },
         })
 
@@ -57,7 +57,7 @@ export const aboutAnime = () => {
                 start: "top 80%",
                 // scrub: true,
                 // markers: true,
-                toggleActions: "play none none reverse",
+                toggleActions: "play reverse play reverse",
             },
         })
     })

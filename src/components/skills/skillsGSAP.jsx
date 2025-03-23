@@ -13,7 +13,7 @@ export const skillsAnimeFrontend=()=>{
                 start: "top 90%",
                 // scrub: true,
                 // markers: true,
-                toggleActions: "play none none reverse",
+                toggleActions: "play reverse play reverse",
             },
         })
     })
@@ -30,7 +30,7 @@ export const skillsAnimeBackend=()=>{
                 start: "top 90%",
                 // scrub: true,
                 // markers: true,
-                toggleActions: "play none none reverse",
+                toggleActions: "play reverse play reverse",
             },
         })
     })
@@ -47,7 +47,7 @@ export const skillsAnimeDsml=()=>{
                 start: "top 90%",
                 // scrub: true,
                 // markers: true,
-                toggleActions: "play none none reverse",
+                toggleActions: "play reverse play reverse",
             },
         })
     })
@@ -64,7 +64,7 @@ export const skillsAnimeTools=()=>{
                 start: "top 90%",
                 // scrub: true,
                 // markers: true,
-                toggleActions: "play none none reverse",
+                toggleActions: "play reverse play reverse",
             },
         })
     })
