@@ -11,7 +11,7 @@ export const aboutAnime = () => {
             duration: 1,
             scrollTrigger: {
                 trigger: ".qualification__sections",
-                start: "top 80%",
+                start: "top 70%",
                 // scrub: true,
                 // markers: true,
                 toggleActions: "play reverse play reverse",
@@ -24,7 +24,7 @@ export const aboutAnime = () => {
             duration: 1,
             scrollTrigger: {
                 trigger: ".qualification__sections",
-                start: "top 80%",
+                start: "top 70%",
                 // scrub: true,
                 // markers: true,
                 toggleActions: "play reverse play reverse",
@@ -41,7 +41,7 @@ export const aboutAnime = () => {
             duration: 1,
             scrollTrigger: {
                 trigger: ".qualification__sections",
-                start: "top 80%",
+                start: "top 70%",
                 // scrub: true,
                 // markers: true,
                 toggleActions: "play reverse play reverse",
@@ -54,7 +54,7 @@ export const aboutAnime = () => {
             duration: 1,
             scrollTrigger: {
                 trigger: ".qualification__sections",
-                start: "top 80%",
+                start: "top 70%",
                 // scrub: true,
                 // markers: true,
                 toggleActions: "play reverse play reverse",
