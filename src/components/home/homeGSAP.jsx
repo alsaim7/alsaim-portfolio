@@ -9,7 +9,7 @@ export const socialAnime = () => {
             x: -20,
             opacity: 0,
             duration: 1,
-            stagger: 0.4,
+            stagger: 0.3,
             scrollTrigger: {
                 trigger: '.social',
                 start: "top 70%",
