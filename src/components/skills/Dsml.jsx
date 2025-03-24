@@ -27,7 +27,7 @@ export function Dsml() {
                         <i className='bx bx-badge-check' ></i>
 
                         <div className="dsml">
-                            <h3 className="skills__name">Predictive Modeling</h3>
+                            <h3 className="skills__name">Modeling</h3>
                             {/* <span className="skills__level">
                             </span> */}
                         </div>
