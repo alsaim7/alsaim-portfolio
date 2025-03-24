@@ -69,3 +69,20 @@ export const skillsAnimeTools=()=>{
         })
     })
 }
+
+export const skillsAnimeLang=()=>{
+    return gsap.context(()=>{
+        gsap.from('.languages',{
+            x: 30,
+            opacity: 0,
+            duration: 1,
+            scrollTrigger: {
+                trigger: ".languages",
+                start: "top 90%",
+                // scrub: true,
+                // markers: true,
+                toggleActions: "play reverse play reverse",
+            },
+        })
+    })
+}

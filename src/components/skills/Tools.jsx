@@ -16,7 +16,7 @@ export function Tools() {
                         <i className='bx bx-badge-check' ></i>
 
                         <div className="tools">
-                            <h3 className="skills__name"> VS Code</h3>
+                            <h3 className="skills__name">VS Code</h3>
                             {/* <span className="skills__level">
                             </span> */}
                         </div>
