@@ -27,7 +27,7 @@ function App() {
     const handleInteraction = () => {
       setTimeout(() => {
         ScrollTrigger.refresh();
-      }, 300);
+      }, 500);
       window.removeEventListener("scroll", handleInteraction);
       window.removeEventListener("touchstart", handleInteraction);
     };
