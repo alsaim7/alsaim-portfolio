@@ -156,8 +156,10 @@ img {
   font-weight: var(--font-medium);
 }
 
-.button:hover {
-  background-color: var(--title-color-dark);
+@media (hover: hover) and (pointer: fine) {
+  .button:hover {
+    background-color: var(--title-color-dark);
+  }
 }
 
 .button__icon {
@@ -219,4 +221,3 @@ img {
     margin-right: var(--mb-1);
   }
 }
-
