@@ -16,18 +16,7 @@ export function Frontend() {
                         <i className='bx bx-badge-check' ></i>
 
                         <div className="frontend">
-                            <h3 className="skills__name">HTML</h3>
-                            {/* <span className="skills__level">
-                            </span> */}
-                        </div>
-                    </div>
-
-
-                    <div className="skills__data">
-                        <i className='bx bx-badge-check' ></i>
-
-                        <div className="frontend">
-                            <h3 className="skills__name">CSS</h3>
+                            <h3 className="skills__name">HTML & CSS</h3>
                             {/* <span className="skills__level">
                             </span> */}
                         </div>
@@ -43,22 +32,22 @@ export function Frontend() {
                             </span> */}
                         </div>
                     </div>
-                </div>
 
-            
-
-                <div className="skills__group">
 
                     <div className="skills__data">
                         <i className='bx bx-badge-check' ></i>
 
                         <div className="frontend">
-                            <h3 className="skills__name">React js</h3>
+                            <h3 className="skills__name">React.js</h3>
                             {/* <span className="skills__level">
                             </span> */}
                         </div>
-                    </div> 
+                    </div>
+                </div>
 
+            
+
+                <div className="skills__group">
 
                     <div className="skills__data">
                         <i className='bx bx-badge-check' ></i>
@@ -76,6 +65,17 @@ export function Frontend() {
 
                         <div className="frontend">
                             <h3 className="skills__name">Bootstrap</h3>
+                            {/* <span className="skills__level">
+                            </span> */}
+                        </div>
+                    </div> 
+
+
+                    <div className="skills__data">
+                        <i className='bx bx-badge-check' ></i>
+
+                        <div className="frontend">
+                            <h3 className="skills__name">MUI</h3>
                             {/* <span className="skills__level">
                             </span> */}
                         </div>

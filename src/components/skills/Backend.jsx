@@ -50,7 +50,7 @@ export function Backend() {
                         <i className='bx bx-badge-check' ></i>
 
                         <div className="backend">
-                            <h3 className="skills__name">Rest API</h3>
+                            <h3 className="skills__name">FastAPI</h3>
                             {/* <span className="skills__level">
                             </span> */}
                         </div>
