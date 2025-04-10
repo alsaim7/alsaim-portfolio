@@ -1,6 +1,7 @@
 import './about.css'
 import { useState, useEffect } from 'react'
 import { aboutAnime } from './aboutGSAP'
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 export function About() {
     const [toggleState, setToggleState] = useState(1)
@@ -10,6 +11,9 @@ export function About() {
 
     useEffect(() => {
         const mm= aboutAnime()
+        setTimeout(() => {
+            ScrollTrigger.refresh()
+        }, 100)
         return (() => {
             mm.revert(); // Cleanup on unmount
         })
