@@ -38,7 +38,9 @@ export function WorkItems({ item }) {
     };
     return (
         <div className={`work__card class${item.id}`}>
-            <img src={item.image} alt="" className="work__img" />
+            <div className="work__img-container">
+                <img src={item.image} alt="" className="work__img" />
+            </div>
             <h3 className="work__title">{item.title}</h3>
 
             <button className="work__button details-button" onClick={handleOpen}>
