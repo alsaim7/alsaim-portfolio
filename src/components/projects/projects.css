@@ -41,22 +41,10 @@
     border-radius: 1rem;
 }
 
-.work__img-container{
-    overflow: hidden;
-    border-radius: 1rem;
-    margin-bottom: 1rem;
-}
-
 .work__img{
-    display: block;
     width: 295px;
     border-radius: 1rem;
-    /* margin-bottom: var(--mb-1); */
-    transition: transform 0.3s ease;
-}
-
-.work__img:hover{
-    transform: scale(1.05);
+    margin-bottom: var(--mb-1);
 }
 
 .work__title{
@@ -90,6 +78,9 @@
     -webkit-tap-highlight-color: transparent;
 }
 
+/* .close-icon{
+    font-size: var(--small-font-size);
+} */
 
 /* breakpoints */
 
@@ -103,13 +94,9 @@
         padding: 1rem;
     }
 
-    /* .work__img{
-        margin-bottom: 0.75rem;
-    } */
-    .work__img-container{
+    .work__img{
         margin-bottom: 0.75rem;
     }
-
 
     .work__title{
         margin-bottom: 0.25rem;
