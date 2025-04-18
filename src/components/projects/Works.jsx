@@ -52,7 +52,7 @@ export function Works() {
             </div>
 
             <div className="work__container container grid">
-                {projects.map((item, index) => {
+                {projects.slice().reverse().map((item, index) => {
                     return (
                         <WorkItems item={item} key={item.id}/>
                     )
