@@ -69,10 +69,10 @@ export function WorkItems({ item }) {
                         <Typography id="transition-modal-title modal-title" variant="h6" component="h2" sx={{ color: 'var(--title-color)' }}>
                             {item.fullTitle}
                         </Typography>
-                        <Typography id="transition-modal-description" sx={{ mt: 2, color: 'var(--text-color)' }}>
+                        <Typography id="transition-modal-description" sx={{ mt: 2, color: 'var(--text-color)', textAlign: "justify" }}>
                             <b>Description: </b>{item.description}
                         </Typography>
-                        <Typography id="transition-modal-description modal-tech" sx={{ mt: 2, color: 'var(--text-color)' }}>
+                        <Typography id="transition-modal-description modal-tech" sx={{ mt: 2, color: 'var(--text-color)', textAlign: "justify" }}>
                             <b>Technologies used: </b>{item.tech}
                         </Typography>
 
