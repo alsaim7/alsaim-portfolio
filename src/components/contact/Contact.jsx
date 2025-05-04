@@ -1,8 +1,11 @@
 import './contact.css'
 import { useState, useEffect } from 'react'
-import { ClipLoader } from "react-spinners"
+import CircularProgress from '@mui/material/CircularProgress';
 import { contactAnime } from './contactGSAP'
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+import Snackbar from '@mui/material/Snackbar';
+import Alert from '@mui/material/Alert';
+import Slide from '@mui/material/Slide';
 
 export function Contact() {
     const [loading, setLoading] = useState(false)
@@ -12,6 +15,9 @@ export function Contact() {
         email: '',
         message: ''
     })
+
+    const [open, setOpen] = useState(false)
+    const [error, setError] = useState(false)
 
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value })
@@ -36,7 +42,8 @@ export function Contact() {
             })
             if (res1.ok) {
                 setTimeout(() => {
-                    alert('Form Submitted!')
+                    // alert('Form Submitted!')
+                    setOpen(true)
                 }, 1000)
                 setFormData({ name: '', email: '', message: '' })
                 setLoading(false)
@@ -46,18 +53,28 @@ export function Contact() {
                 setLoading(false)
             }
         } catch (e) {
-            alert('Something went wrong!')
+            setError(true)
+            setOpen(true)
             setFormData({ name: '', email: '', message: '' })
             setLoading(false)
         }
     }
 
-    useEffect(()=>{
-        const mm= contactAnime()
-        return(()=>{
+    useEffect(() => {
+        const mm = contactAnime()
+        return (() => {
             mm.revert()
         })
-    },[])
+    }, [])
+
+    function SlideTransition(props) {
+        return <Slide {...props} direction='up'/>;
+    }
+
+    const handleClose = () => {
+        setOpen(false)
+        setError(false)
+    }
 
     return (
         <section className="contact section" id="contact">
@@ -103,10 +120,6 @@ export function Contact() {
                 <div className="contact__content">
                     <h3 className="contact__title">Write me your project</h3>
 
-                    <div style={{ textAlign: 'center', marginBottom:'var(--mb-1)'}}>{loading ? <ClipLoader
-                        color="hsl(0, 0%, 46%)"
-                    /> : null}</div>
-
                     <form className="contact__form" onSubmit={handleSubmit}>
                         <div className="contact__form-div formFeild">
                             <label htmlFor="name" className="contact__form-tag">Name</label>
@@ -123,7 +136,7 @@ export function Contact() {
                             <textarea name='message' id='message' className='contact__form-input' placeholder='Write your message' cols={30} rows={5} onChange={handleChange} value={formData.message} required />
                         </div>
 
-
+                        <div style={{display:'flex', alignItems:'center', gap: '2 rem'}}>
                         <button className="button button--flex formFeild formButton">
                             Send Message
                             <svg
@@ -143,10 +156,54 @@ export function Contact() {
                                     fill="var(--container-color)"
                                 ></path>
                             </svg>
-                        </button>
+                        </button> {loading ? <CircularProgress
+                            size={'40px'}
+                            sx={{
+                                ml: 1
+                            }}
+                            color="hsl(0, 0%, 46%)"
+                        /> : null}
+
+                        </div>
                     </form>
 
                 </div>
+            </div>
+
+            <div>
+                <Snackbar open={open} autoHideDuration={3000} onClose={handleClose} TransitionComponent={SlideTransition} anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}>
+
+                    {error ?
+                        <Alert
+                            onClose={handleClose}
+                            severity="error"
+                            variant="filled"
+                            sx={{
+                                width: {
+                                    sm: '100%',
+                                    md: '80%',
+                                    padding:'1rem'
+                                }
+                            }}
+                        >
+                            Something went wrong, please try again later!
+                        </Alert> :
+                        <Alert
+                            onClose={handleClose}
+                            severity="success"
+                            variant="filled"
+                            sx={{
+                                width: {
+                                    sm: '100%',
+                                    md: '80%',
+                                    padding:'1rem'
+                                }
+                            }}
+                        >
+                            Thank you for reaching out! I'll get back to you as soon as possible.
+                        </Alert>}
+
+                </Snackbar>
             </div>
         </section>
     )
