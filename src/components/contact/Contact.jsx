@@ -171,7 +171,7 @@ export function Contact() {
             </div>
 
             <div>
-                <Snackbar open={open} autoHideDuration={3000} onClose={handleClose} TransitionComponent={SlideTransition} anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}>
+                <Snackbar open={open} autoHideDuration={3000} onClose={handleClose} TransitionComponent={SlideTransition} anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }} sx={{bottom: '50px'}}>
 
                     {error ?
                         <Alert
