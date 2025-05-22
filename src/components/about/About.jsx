@@ -41,13 +41,8 @@ export function About() {
                 <div className="qualification__sections">
                     <div className={toggleState === 1 ? 'qualification__content qualification__content-active' : 'qualification__content'}>
                         {/* qualification one */}
-                        <div className="qualification__data">
-                            <div></div>
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
-                            <div className='gsap-right'>
+                        <div className="qualification__data right-align">
+                            <div className='gsap-left'>
                                 <h3 className="qualification__title">Software Developer - Intern</h3>
                                 <span className="qualification__subtitle">
                                     KK Hospital, Lucknow
@@ -56,20 +51,6 @@ export function About() {
                                     <i className="uil uil-calendar-alt"></i> May 2025 - Present
                                 </div>
                             </div>
-                        </div>
-
-
-                        {/* qualification two */}
-                        <div className="qualification__data right-align">
-                            <div className='gsap-left'>
-                                <h3 className="qualification__title">Freelancer</h3>
-                                <span className="qualification__subtitle">
-                                    Web Developer
-                                </span>
-                                <div className="qualifcation__calender">
-                                    <i className="uil uil-calendar-alt"></i> Jan 2025 - Present
-                                </div>
-                            </div>
 
                             <div>
                                 <span className="qualification__rounder"></span>
@@ -77,7 +58,24 @@ export function About() {
                             </div>
                         </div>
 
-                        
+
+                        {/* qualification two */}
+                        <div className="qualification__data">
+                            <div></div>
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+                            <div className='gsap-right'>
+                                <h3 className="qualification__title">Freelancer</h3>
+                                <span className="qualification__subtitle">
+                                    Web Developer
+                                </span>
+                                <div className="qualifcation__calender">
+                                    <i className="uil uil-calendar-alt"></i> Dec 2024 - Present
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
