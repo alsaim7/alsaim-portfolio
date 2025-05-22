@@ -57,11 +57,11 @@ export const projectsData = [
         fullTitle: 'A full-stack storytelling platform for sharing and discovering user-generated stories',
         description: `MyTello is a full-stack web application where users can register, authenticate, and share original stories with a global audience. Inspired by platforms like Reddit and Medium, it features a clean, responsive interface built with React.
 
-The backend is powered by FastAPI and PostgreSQL for efficient and scalable data management. The app supports JWT-based user authentication, protected routes, and full CRUD operations for stories. While the current version focuses on story creation and browsing, its modular architecture allows for easy expansion with features like commenting and reactions.
+The backend is powered by FastAPI and PostgreSQL for efficient and scalable data management. The app supports JWT-based user authentication, protected routes, and full CRUD operations for stories.
 
-It includes robust form validation, error handling, and carefully configured CORS for seamless frontend-backend communication. The frontend is deployed on Netlify, and the backend is hosted on Railway for reliable performance and accessibility.`,
+It includes robust form validation, error handling, and carefully configured CORS for seamless frontend-backend communication.`,
 
-        tech: 'React, Tailwind CSS, React Router, Axios, FastAPI, PostgreSQL, SQLAlchemy, Pydantic, JWT Auth, CORS, Railway, Netlify.',
+        tech: 'React, Tailwind CSS, React Router, Axios, FastAPI, PostgreSQL, SQLAlchemy, Pydantic, JWT Auth, CORS.',
         category: "Web",
         link: 'https://mytello.netlify.app/'
     },
