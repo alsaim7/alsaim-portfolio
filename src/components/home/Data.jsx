@@ -32,7 +32,7 @@ export function Data() {
                 />
             </h1>
             <h3 className="home__subtitle">
-                Full-Stack web developer
+                Software Developer
             </h3>
             <p className="home__description">
                 Skilled in developing scalable and responsive web applications with a focus on performance and user experience. Proficient in both front-end and back-end technologies, creating efficient and dynamic solutions.
