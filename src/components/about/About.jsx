@@ -45,7 +45,7 @@ export function About() {
                             <div className='gsap-left'>
                                 <h3 className="qualification__title">Freelancer</h3>
                                 <span className="qualification__subtitle">
-                                    Web Development
+                                    Web Developer
                                 </span>
                                 <div className="qualifcation__calender">
                                     <i className="uil uil-calendar-alt"></i> Jan 2025 - Present
@@ -67,7 +67,7 @@ export function About() {
                                 <span className="qualification__line"></span>
                             </div>
                             <div className='gsap-right'>
-                                <h3 className="qualification__title">Software Developer Intern</h3>
+                                <h3 className="qualification__title">Software Developer - Intern</h3>
                                 <span className="qualification__subtitle">
                                     KK Hospital, Lucknow
                                 </span>
