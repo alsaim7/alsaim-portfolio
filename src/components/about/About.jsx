@@ -4,7 +4,7 @@ import { aboutAnime } from './aboutGSAP'
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 export function About() {
-    const [toggleState, setToggleState] = useState(1)
+    const [toggleState, setToggleState] = useState(2)
     const toggleTab = (i) => {
         setToggleState(i)
     }
@@ -28,62 +28,16 @@ export function About() {
             <div className="qualification__container container">
                 <div className="qualification__tabs">
                     <div className={toggleState === 1 ? 'qualification__button button--flex qualification__active' : 'qualification__button button--flex'} onClick={() => toggleTab(1)}>
-                        <i className="uil uil-graduation-cap qualification__icon"></i> Experience
+                        <i className="uil uil-graduation-cap qualification__icon"></i> Education
                     </div>
                     <div className={toggleState === 2 ? 'qualification__button button--flex qualification__active' : 'qualification__button button--flex'} onClick={() => toggleTab(2)}>
-                        <i className="uil uil-briefcase-alt qualification__icon"></i> Education
+                        <i className="uil uil-briefcase-alt qualification__icon"></i> Experience
                     </div>
                 </div>
-
-
-
-                {/* this is for experience tab */}
-                <div className="qualification__sections">
-                    <div className={toggleState === 1 ? 'qualification__content qualification__content-active' : 'qualification__content'}>
-                        {/* qualification one */}
-                        <div className="qualification__data right-align">
-                            <div className='gsap-left'>
-                                <h3 className="qualification__title">Software Developer - Intern</h3>
-                                <span className="qualification__subtitle">
-                                    KK Hospital, Lucknow
-                                </span>
-                                <div className="qualifcation__calender">
-                                    <i className="uil uil-calendar-alt"></i> May 2025 - Present
-                                </div>
-                            </div>
-
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
-                        </div>
-
-
-                        {/* qualification two */}
-                        <div className="qualification__data">
-                            <div></div>
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
-                            <div className='gsap-right'>
-                                <h3 className="qualification__title">Freelancer</h3>
-                                <span className="qualification__subtitle">
-                                    Web Developer
-                                </span>
-                                <div className="qualifcation__calender">
-                                    <i className="uil uil-calendar-alt"></i> Dec 2024 - Present
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
 
                 {/* this is for qualification tab */}
                 <div className="qualification__sections">
-                    <div className={toggleState === 2 ? 'qualification__content qualification__content-active' : 'qualification__content'}>
+                    <div className={toggleState === 1 ? 'qualification__content qualification__content-active' : 'qualification__content'}>
                         {/* qualification one */}
                         <div className="qualification__data right-align">
                             <div className='gsap-left'>
@@ -144,6 +98,52 @@ export function About() {
 
                 </div>
 
+
+                
+                </div>
+
+            {/* this is for experience tab */}
+            <div className="qualification__sections">
+                <div className={toggleState === 2 ? 'qualification__content qualification__content-active' : 'qualification__content'}>
+                    {/* qualification one */}
+                    <div className="qualification__data right-align">
+                        <div className='gsap-left'>
+                            <h3 className="qualification__title">Software Developer - Intern</h3>
+                            <span className="qualification__subtitle">
+                                KK Hospital, Lucknow
+                            </span>
+                            <div className="qualifcation__calender">
+                                <i className="uil uil-calendar-alt"></i> May 2025 - Present
+                            </div>
+                        </div>
+
+                        <div>
+                            <span className="qualification__rounder"></span>
+                            <span className="qualification__line"></span>
+                        </div>
+                    </div>
+
+
+                    {/* qualification two */}
+                    <div className="qualification__data">
+                        <div></div>
+                        <div>
+                            <span className="qualification__rounder"></span>
+                            <span className="qualification__line"></span>
+                        </div>
+                        <div className='gsap-right'>
+                            <h3 className="qualification__title">Freelancer</h3>
+                            <span className="qualification__subtitle">
+                                Web Developer
+                            </span>
+                            <div className="qualifcation__calender">
+                                <i className="uil uil-calendar-alt"></i> Dec 2024 - Present
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
 
 
             </div>
