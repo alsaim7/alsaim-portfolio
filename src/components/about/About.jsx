@@ -108,7 +108,7 @@ export function About() {
                     {/* qualification one */}
                     <div className="qualification__data right-align">
                         <div className='gsap-left'>
-                            <h3 className="qualification__title">Software Developer - Intern</h3>
+                            <h3 className="qualification__title">Full Stack Web Developer - Intern</h3>
                             <span className="qualification__subtitle">
                                 KK Hospital, Lucknow
                             </span>
