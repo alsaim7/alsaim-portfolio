@@ -38,9 +38,9 @@ export function Data() {
                 Skilled in developing scalable and responsive web applications with a focus on performance and user experience. Proficient in both front-end and back-end technologies, creating efficient and dynamic solutions.
             </p>
 
-            <a href="https://drive.google.com/drive/folders/1xZOpa9MfNqzXXxqk7NEgMgaGS8LeK2sl?usp=sharing" target="_blank" className="button button--flex buttonHello">
-                View Resume
-                <i className='bx bx-file button__icon' style={{fontSize: '24px'}}></i>
+            <a href="#projects" className="button button--flex buttonHello">
+                View Projects
+                <i className='bx bx-folder-open button__icon' style={{fontSize: '24px'}}></i>
             </a>
         </div>
     )

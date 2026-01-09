@@ -55,6 +55,7 @@
 }
 
 .work__button{
+    background-color: var(--container-color);
     color: var(--text-color);
     font-size: var(--small-font-size);
     display: flex;
