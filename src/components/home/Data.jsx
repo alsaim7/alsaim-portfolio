@@ -32,10 +32,10 @@ export function Data() {
                 />
             </h1>
             <h3 className="home__subtitle">
-                Full Stack Web Developer
+                Software Engineer
             </h3>
             <p className="home__description">
-                Skilled in developing scalable and responsive web applications with a focus on performance and user experience. Proficient in both front-end and back-end technologies, creating efficient and dynamic solutions.
+                Full-Stack Developer capable of building complex web applications from the ground up. I manage the full technical stack—backend logic, database architecture, and user interfaces—ensuring seamless integration and a high-performance result for your business.
             </p>
 
             <a href="#projects" className="button button--flex buttonHello">
