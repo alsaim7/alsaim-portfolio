@@ -40,8 +40,17 @@ export const projectsData = [
         description: 'AS-Camp is a full-stack web application for discovering, sharing, and reviewing campgrounds. Users can post their own campsites, explore detailed locations, and leave comments. Built with Node.js, Express.js, MongoDB, and Map APIs, it features a responsive design and secure authentication.',
         tech: "Express.js, MongoDB, Mongoose, Passport.js, Cloudinary, MapTiler, EJS, Joi, Express-Session, Helmet.",
         category: "Web",
-        link: 'https://github.com/alsaim7/AS-Camp.git',
-        type: 'public'
+        type: 'internal',
+        screenshots: [
+            'https://res.cloudinary.com/dnkqy2kkr/image/upload/v1768907532/homepage_s7gtht.png',
+            'https://res.cloudinary.com/dnkqy2kkr/image/upload/v1768907531/register_z1x4mz.png',
+            'https://res.cloudinary.com/dnkqy2kkr/image/upload/v1768907531/login_fl2am8.png',
+            'https://res.cloudinary.com/dnkqy2kkr/image/upload/v1768907531/campgrounds_list_bybhp7.png',
+            'https://res.cloudinary.com/dnkqy2kkr/image/upload/v1768907531/search_results_lznj8j.png',
+            'https://res.cloudinary.com/dnkqy2kkr/image/upload/v1768907531/campground_details_iunjni.png',
+            'https://res.cloudinary.com/dnkqy2kkr/image/upload/v1768907530/add_new_camp_ml1d5n.png',
+            'https://res.cloudinary.com/dnkqy2kkr/image/upload/v1768907532/update_camp_z7kfma.png',
+        ]
     },
     {
         id: 5,
