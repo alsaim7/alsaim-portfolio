@@ -63,8 +63,15 @@ export function WorkItems({ item }) {
                         <Typography variant="h6" sx={{ color: 'var(--title-color)' }}>
                             {item.fullTitle}
                         </Typography>
-                        <Typography sx={{ mt: 2 }}>
-                            <b>Description:</b> {item.description}
+                        <Typography
+                            sx={{
+                                mt: 2,
+                                whiteSpace: 'pre-line',
+                                fontFamily: 'inherit'
+                            }}
+                        >
+                            <b>Description:</b>{'\n'}
+                            {item.description}
                         </Typography>
                         <Typography sx={{ mt: 2 }}>
                             <b>Tech Stack:</b> {item.tech}

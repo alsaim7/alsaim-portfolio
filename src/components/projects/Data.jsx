@@ -98,7 +98,46 @@ It includes robust form validation, error handling, and carefully configured COR
         title: "CRM System (Archloom)",
         fullTitle: "Enterprise CRM System (Archloom)",
         description:
-            "Developed a full-stack Enterprise CRM system to manage the complete customer lifecycle, including lead creation, customer ID generation, advanced search, and status tracking. The system allows administrators to assign leads to employees, monitor progress, and maintain structured follow-ups through a multi-entry remarks module. Interactive dashboards and charts provide insights into customer activity over the last 30 days, active, on-hold, and closed leads. Includes automated status handling where on-hold customers are reactivated after a defined time period, ensuring consistent follow-up and workflow continuity.",
+            `Archloom is a full-stack Enterprise CRM designed to manage the entire customer lifecycle from lead creation to closure.\n
+The system provides administrators with role-based lead assignment, a structured multi-entry remarks module for repeatable follow-ups, advanced search and customer ID generation, and interactive dashboards that surface key activity over the past 30 days.\n
+Automated status handling reactivates on-hold customers after a configurable period to ensure no opportunity is missed and workflows remain continuous.\n
+\n
+Key Features:\n
+
+\tLead Management:\n
+\t\t- Create and track leads throughout the sales lifecycle\n
+\t\t- Assign leads to employees based on roles\n
+\t\t- Monitor lead status changes (active, on-hold, closed)\n
+
+\tMulti-Entry Remarks:\n
+\t\t- Store multiple follow-up notes per customer\n
+\t\t- Preserve complete conversation history\n
+\t\t- Capture next-step actions for consistent follow-ups\n
+
+\tAutomated Reactivation:\n
+\t\t- Automatically reactivate on-hold customers\n
+\t\t- Configurable time window for reactivation\n
+\t\t- Ensures no lead is forgotten or missed\n
+
+\tAdvanced Search & Customer IDs:\n
+\t\t- Generate unique customer identification numbers\n
+\t\t- Perform fast, filtered searches across all records\n
+
+\tRole-Based Administration:\n
+\t\t- Assign and redistribute leads\n
+\t\t- Review team performance and progress\n
+\t\t- Maintain centralized administrative control\n
+
+\tAnalytics & Dashboards:\n
+\t\t- Interactive charts and KPIs\n
+\t\t- Activity and trend summaries\n
+\t\t- Status breakdown (active / on-hold / closed)\n
+\t\t- Insights for the last 30 days\n
+
+\tSecurity & Authentication:\n
+\t\t- JWT-based authentication\n
+\t\t- Secure API access\n
+`,
         tech: 'React, FastAPI, PostgreSQL, JWT',
         category: "Web",
         type: 'internal',

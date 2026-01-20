@@ -110,9 +110,9 @@ export function Contact() {
                             <i className="bx bxl-telegram contact__card-icon"></i>
 
                             <h3 className="contact__card-title">Telegram</h3>
-                            <span className="contact__card-data">@alsaim7</span>
+                            <span className="contact__card-data">@alsaimshakeel</span>
 
-                            <a href="https://t.me/alsaim7" className="contact__button" target="_blank" rel="noopener noreferrer">Write me{" "}<i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="https://t.me/alsaimshakeel" className="contact__button" target="_blank" rel="noopener noreferrer">Write me{" "}<i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
                     </div>
                 </div>
