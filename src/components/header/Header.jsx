@@ -1,7 +1,10 @@
 import './header.css'
-import { useState, useEffect} from 'react'
+import { useState, useEffect } from 'react'
+import { useTheme } from '../../context/ThemeContext'
+
 export function Header() {
     const [toggle, setToggle] = useState(false)
+    const { isDarkMode, toggleTheme } = useTheme()
 
     const openToggleMenu = () => {
         setToggle(!toggle)
@@ -15,18 +18,18 @@ export function Header() {
 
 
     // change background header
-    useEffect(()=>{
-        
-        const handleScroll=()=>{
+    useEffect(() => {
 
-            const sections= document.querySelectorAll('section')
-            let currentSection= '#home'
-            sections.forEach((section)=>{
-                const sectionTop= section.offsetTop
-                const sectionHeight= section.offsetHeight
+        const handleScroll = () => {
 
-                if (window.scrollY>= sectionTop -sectionHeight / 3){
-                    currentSection= `#${section.id}`
+            const sections = document.querySelectorAll('section')
+            let currentSection = '#home'
+            sections.forEach((section) => {
+                const sectionTop = section.offsetTop
+                const sectionHeight = section.offsetHeight
+
+                if (window.scrollY >= sectionTop - sectionHeight / 3) {
+                    currentSection = `#${section.id}`
                 }
             })
 
@@ -42,12 +45,12 @@ export function Header() {
 
         window.addEventListener('scroll', handleScroll)
 
-        return()=>{
-            window.removeEventListener('scroll',handleScroll)
+        return () => {
+            window.removeEventListener('scroll', handleScroll)
         }
 
-    },[])
-   
+    }, [])
+
 
 
 
@@ -91,6 +94,10 @@ export function Header() {
                 </div>
 
                 <div className="nav__toggle" onClick={openToggleMenu}><i className="uil uil-apps"></i></div>
+
+                <button className="theme__toggle" onClick={toggleTheme} title="Toggle dark mode">
+                    <i className={isDarkMode ? "uil uil-sun" : "uil uil-moon"}></i>
+                </button>
             </nav>
         </header>
     )

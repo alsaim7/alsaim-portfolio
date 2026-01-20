@@ -50,6 +50,16 @@
   --z-modal: 1000;
 }
 
+/*=============== DARK MODE ===============*/
+html.dark-theme {
+  --title-color: hsl(var(--hue), var(--sat), 95%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 100%);
+  --text-color: hsl(var(--hue), var(--sat), 80%);
+  --body-color: hsl(var(--hue), var(--sat), 12%);
+  --container-color: hsl(var(--hue), var(--sat), 18%);
+}
+
+
 /* Responsive typography */
 @media screen and (max-width: 992px) {
   :root {
@@ -72,6 +82,7 @@
 
 html {
   scroll-behavior: smooth;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 body,
@@ -85,6 +96,7 @@ textarea {
 body {
   background-color: var(--body-color);
   color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 h1,
@@ -219,4 +231,3 @@ img {
     margin-right: var(--mb-1);
   }
 }
-

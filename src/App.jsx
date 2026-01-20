@@ -7,6 +7,7 @@ import { Projects } from './components/projects/Projects'
 import { Contact } from './components/contact/Contact'
 import { Footer } from './components/footer/Footer'
 import { ScrollUp } from './components/scrollup/ScrollUp'
+import { ThemeProvider } from './context/ThemeContext'
 import { useEffect } from 'react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import gsap from 'gsap';
@@ -14,7 +15,7 @@ import gsap from 'gsap';
 // Register ScrollTrigger with GSAP
 gsap.registerPlugin(ScrollTrigger);
 
-function App() {
+function AppContent() {
   useEffect(() => {
     // Refresh ScrollTrigger on window load
     window.addEventListener("load", () => {
@@ -56,6 +57,14 @@ function App() {
       <Footer />
       <ScrollUp />
     </>
+  )
+}
+
+function App() {
+  return (
+    <ThemeProvider>
+      <AppContent />
+    </ThemeProvider>
   )
 }
 
