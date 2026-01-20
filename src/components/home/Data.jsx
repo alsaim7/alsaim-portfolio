@@ -35,7 +35,7 @@ export function Data() {
                 Software Engineer
             </h3>
             <p className="home__description">
-                Full-Stack Developer capable of building complex web applications from the ground up. I manage the full technical stack—backend logic, database architecture, and user interfaces—ensuring seamless integration and a high-performance result for your business.
+                Full-Stack Developer capable of building complex web applications from the ground up. I manage the full technical stack-backend logic, database architecture, and user interfaces-ensuring seamless integration and a high-performance result for your business.
             </p>
 
             <a href="#projects" className="button button--flex buttonHello">
